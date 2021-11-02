@@ -32,6 +32,11 @@
         <AppInfoIcon />
       </AppButton>
       <AppButton class="hidden lg:block" :to="{ name: 'about' }">À propos</AppButton>
+
+      <AppButton class="lg:hidden" :to="{ name: 'stats' }">
+        <AppInfoIcon />
+      </AppButton>
+      <AppButton class="hidden lg:block" :to="{ name: 'stats' }">Stats</AppButton>
     </div>
     <!-- <div v-if="loggedIn" class="flex justify-end">
       <AppButton icon="left" variant="contained" class="bg-primary-dark"
